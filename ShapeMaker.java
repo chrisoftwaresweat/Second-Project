@@ -83,8 +83,8 @@ public class ShapeMaker {
                                 }
                             }
                             break;
-                        case "right":
-                            System.out.print("How many rows for the right sided triangle?: ");
+                        case "left":
+                            System.out.print("How many rows for the left sided triangle?: ");
                             int r= scanner.nextInt();
                             scanner.nextLine();
                             if(r<=0){
@@ -99,8 +99,8 @@ public class ShapeMaker {
                                 }
                             }
                             break;
-                        case "left":
-                            System.out.print("How many rows for the left sided triangle?: ");
+                        case "right":
+                            System.out.print("How many rows for the right sided triangle?: ");
                             int le= scanner.nextInt();
                             scanner.nextLine();
                             if(le<=0){
